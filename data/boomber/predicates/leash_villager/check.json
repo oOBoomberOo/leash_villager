@@ -1,0 +1,22 @@
+[
+	{
+		"condition": "minecraft:entity_scores",
+		"entity": "this",
+		"scores": {
+			"bb.lv.talk": 1
+		}
+	},
+	{
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:reference",
+				"name": "boomber:leash_villager/mainhand"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "boomber:leash_villager/offhand"
+			}
+		]
+	}
+]

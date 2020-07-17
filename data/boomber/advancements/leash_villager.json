@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Leash Villager",
+        "description": "Lead on Villager",
+        "icon": {
+            "item": "minecraft:lead"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:boomber",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
