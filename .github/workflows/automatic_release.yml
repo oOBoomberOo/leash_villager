@@ -2,8 +2,6 @@ on:
   push:
     tags:
       - 'v*'
-    branches:
-      - master
   workflow_dispatch:
 
 name: Create Release
